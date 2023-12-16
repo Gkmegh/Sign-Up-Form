@@ -1,0 +1,75 @@
+/* SignUpForm.css */
+
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: black; */
+  /* color: white; */
+  overflow: hidden;
+}
+
+
+#root{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+.form-div{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30rem;
+ 
+  font-size: 24px;
+  position: absolute;
+}
+input{
+  align-items: center;
+  width: 25rem;
+  height: 1rem;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+  padding: 8px;
+  margin-bottom: 10px;
+  /* font-size: 24px; */
+}
+
+button{
+  background-color: rgba(0, 119, 255, 0.781);
+  width: 6rem;
+  height: 2rem;
+  border-radius: 8px;
+  align-self: center;
+  color: #fff;
+}
+
+input:hover{
+  box-shadow: 0 0 10px rgba(0,0,0,.3);
+  
+}
+
+input:focus{
+  box-shadow: 0 0 10px rgba(0,0,0,.3);
+  border: 2px solid blue;
+}
+
+p{
+  margin: 0.5rem;
+  color: red;
+}
+
+.valid {
+  border: 2px solid green;
+}
+
+.invalid {
+  border: 2px solid red;
+}
